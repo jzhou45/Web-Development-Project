@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Jonathan Zhou">
+		<meta name="description" content="Audio Page for CDA215">
+		<meta name="keywords" content="CDA215, Jonathan, Zhou,  audio">
+		<link rel="stylesheet" href="mmpcss.css">
+		<title> Audio </title>
+	</head>	
+	<body>
+		<nav>
+			<ol class ="topNavOl">
+				<li class = "classname"> CDA215 </li>
+				<li class ="topNav" > <a href="index.html" class="nav">Home Page </a> </li>
+				<li class ="topNav"> <a href="divs.html" class="nav"> Grid Layout Page using DIVs or CSS </a> </li>
+				<li class ="topNav"> <a href="advcss.html" class="nav"> Advanced CSS Page </a> </li>
+				<li class ="topNav"> <a href="CSSStyleTable.html" class="nav"> CSS-Styled CSS Page </a> </li>
+				<li class ="topNav"> <a href="form.html" class="nav"> HTML5/CSS3 Form Page </a> </li>
+				<li class ="topNav"> <a href="MultimediaPages.html" class="nav"> Multimedia Pages </a> </li>
+				<li class ="topNav"> <a href="JavaScriptPage.html" class="nav"> JavaScript Page </a> </li>
+				<li class ="topNav"> <a href="JavaScriptValidation.html" class="nav"> Javascript Validation </a> </li>
+				<li class ="topNav"> <a href="WowMeFinal.html" class="nav"> Wow Me! Final </a> </li>
+			</ol>
+		</nav>	
+		<main>
+			<br>
+			<h1> Audio </h1>
+			<div class="centerDiv">
+				<br>
+				<a href="rickroll.mp3" target="_blank" class="media"> Never Gonna Give You Up by Rick Astley: </a>
+				<br>
+				<br>
+				<audio controls autoplay>
+					<source src="rickroll.mp3" type = "audio/mpeg">
+				Your browser does not support the audio element.
+				</audio>
+				<br>
+				<br>
+				<a href="MultimediaPages.html" type = "button"> Click to go back to multimedia page </a>
+			</div>
+		</main>
+		<footer class="shortpage">
+				<p>Author: Jonathan Zhou </p>
+		</footer>
+	</body>
+</html>

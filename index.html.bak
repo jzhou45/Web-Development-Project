@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Jonathan Zhou">
+		<meta name="description" content="my profile for CDA215">
+		<meta name="keywords" content="CDA215, Jonathan, Zhou, profile">
+		<link rel="stylesheet" href="indexcss.css">
+		<title> Home Page </title>
+	</head>	
+	<body>
+		<nav>
+			<ol class ="topNavOl">
+				<li class = "classname"> CDA215 </li>
+				<li class="topNav"> <a href="index.html">Home Page </a> </li>
+				<li class="topNav"> <a href="divs.html"> Grid Layout Page using DIVs or CSS </a> </li>
+				<li class="topNav"> <a href="advcss.html"> Advanced CSS Page </a> </li>
+				<li class="topNav"> <a href="CSSStyleTable.html"> CSS-Styled CSS Page </a> </li>
+				<li class="topNav"> <a href="form.html"> HTML5/CSS3 Form Page </a> </li>
+				<li class="topNav"> <a href="MultimediaPages.html"> Multimedia Pages </a> </li>
+				<li class="topNav"> <a href="JavaScriptPage.html"> JavaScript Page </a> </li>
+				<li class="topNav"> <a href="JavaScriptValidation.html"> Javascript Validation </a> </li>
+				<li class="topNav"> <a href="WowMeFinal.html"> Wow Me! Final </a> </li>
+			</ol>
+		</nav>	
+		<main>
+		<br>
+			<img src="me.jpg" 
+				alt="picture of me(Jonathan Zhou)"
+				class="center_image"
+				width="500"
+				height="500">
+			<h1> Jonathan Zhou </h1>
+			<p class = "intro"> Hi there, and welcome to my page! My name's Jonathan, and I'm a senior majoring in Psychology and minoring in History. I just started learning to code this February,
+			and I hope I improve as I go on. Other than learning to code, I enjoy playing table tennis and Valorant. 
+			
+		</main>
+	</body>
+	<footer class = .shortpage>
+			<p>Author: Jonathan Zhou </p>
+	</footer>
+</html>

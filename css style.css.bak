@@ -1,0 +1,115 @@
+@font-face {
+	font-family: CC Wild Words Roman;
+	src: url("CC Wild Words Roman.ttf")
+}
+@font-face {
+	font-family: Concetta Kalvani Signature;
+	src: url("Concetta Kalvani Signature.ttf")
+}
+@font-face {
+	font-family: PressStart2P-Regular;
+	src: url("PressStart2P-Regular.ttf")
+}
+@font-face {
+	font-family: AmaticSC-Regular;
+	src: url("AmaticSC-Regular.ttf")
+}
+@font-face {
+	font-family: MooLahLah-Regular;
+	src: url("MooLahLah-Regular.ttf")
+}
+.td1 {
+	font-family: CC Wild Words Roman;
+}
+.td2 {
+	font-size: 20px;
+	font-family: CC Wild Words Roman;
+}
+.td3 {
+	font-size: 20px;
+	font-family: CC Wild Words Roman;
+	color: Crimson;
+}
+.td4 {
+	font-family: Concetta Kalvani Signature;
+}
+.td5 {
+	font-family: Concetta Kalvani Signature;
+	font-size: 24px;
+}
+.td6 {
+	font-family: Concetta Kalvani Signature;
+	font-size: 24px;
+	color: orange
+}
+.td7 {
+	font-family: PressStart2P-Regular;
+}
+.td8 {
+	font-family: PressStart2P-Regular;
+	font-size: 28px;
+}
+.td9 {
+	font-family: PressStart2P-Regular;
+	font-size: 28px;
+	color: green
+}
+.td10 {
+	font-family: AmaticSC-Regular;
+}
+.td11 {
+	font-family: AmaticSC-Regular;
+	font-size: 30px;
+}
+.td12 {
+	font-family: AmaticSC-Regular;
+	font-size: 30px;
+	color: blue
+}
+.td13 {
+	font-family: MooLahLah-Regular;
+}
+.td14 {
+	font-family: MooLahLah-Regular;
+	font-size: 32px;
+}
+.td15 {
+	font-family: MooLahLah-Regular;
+	font-size: 32px;
+	color: purple
+}
+table, th, td {
+	border: 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+table{
+	padding-top:50px;
+}
+th, td{
+	background-color: white;
+}
+nav {
+	background-color: #006570;
+	}
+ol {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	}
+li{
+	display: inline;
+	padding: 10px;
+	font-size: 12px;
+	}
+h1 {
+	background-color: #006570;
+	text-shadow: 4px 2px gray;
+	text-align: center;
+	}
+a:link {
+	color:white; }
+a:visited {
+	color: gray}
+	
