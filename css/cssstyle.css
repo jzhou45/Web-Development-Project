@@ -9,29 +9,29 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 @font-face {
 	font-family:"San Francisco Bold";
-	src: url("San Francisco Bold.otf");}
+	src: url("../assests/San_Francisco_Bold.otf");}
 @font-face {
 	font-family:"San Francisco";
-	src: url("San Francisco.otf");}
+	src: url("../assests/San_Francisco.otf");}
 @font-face {
 	font-family:"CC Wild Words Roman";
-	src: url("CC Wild Words Roman.ttf")
+	src: url("../assests/CC Wild Words Roman.ttf")
 }
 @font-face {
 	font-family:"Concetta Kalvani Signature";
-	src: url("Concetta Kalvani Signature.ttf")
+	src: url("../assests/Concetta_Kalvani_Signature.ttf")
 }
 @font-face {
 	font-family:PressStart2P-Regular;
-	src: url("PressStart2P-Regular.ttf")
+	src: url("../assests/PressStart2P-Regular.ttf")
 }
 @font-face {
 	font-family:AmaticSC-Regular;
-	src: url("AmaticSC-Regular.ttf")
+	src: url("../assests/AmaticSC-Regular.ttf")
 }
 @font-face {
 	font-family:MooLahLah-Regular;
-	src: url("MooLahLah-Regular.ttf")
+	src: url("../assests/MooLahLah-Regular.ttf")
 }
 .td1 {
 	font-family:"CC Wild Words Roman";
