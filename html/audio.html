@@ -5,7 +5,8 @@
 		<meta name="author" content="Jonathan Zhou">
 		<meta name="description" content="Audio Page for CDA215">
 		<meta name="keywords" content="CDA215, Jonathan, Zhou,  audio">
-		<link rel="stylesheet" href="mmpcss.css">
+		<script src="../scripts/multimedia.js"></script>
+		<link rel="stylesheet" href="../css/mmpcss.css">
 		<title> Audio </title>
 	</head>	
 	<body>
@@ -28,21 +29,16 @@
 			<h1> Audio </h1>
 			<div class="centerDiv">
 				<br>
-				<a href="rickroll.mp3" target="_blank" class="media"> Never Gonna Give You Up by Rick Astley: </a>
+				<a href="../assests/rickroll.mp3" target="_blank" class="media"> Never Gonna Give You Up by Rick Astley: </a>
 				<br>
 				<br>
 				<audio controls autoplay>
-					<source src="rickroll.mp3" type = "audio/mpeg">
+					<source src="../assests/rickroll.mp3" type = "audio/mpeg">
 				Your browser does not support the audio element.
 				</audio>
 				<br>
 				<br>
-				<button id="myButton" >Click to go back to multimedia page</button>
-				<script type="text/javascript">
-					document.getElementById("myButton").onclick = function () {
-						location.href = "MultimediaPages.html";
-					};
-				</script>
+				<button id="myButton" onclick="returnToPage();">Click to go back to multimedia page</button>
 			</div>
 		</main>
 		<footer class="shortpage">

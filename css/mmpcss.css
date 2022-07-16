@@ -11,13 +11,13 @@ html{
 	width:100%}
 @font-face {
 	font-family:"San Francisco Bold";
-	src: url("San Francisco Bold.otf");}
+	src: url("../assests/San_Francisco_Bold.otf");}
 @font-face {
 	font-family:"San Francisco";
-	src: url("San Francisco.otf");}
+	src: url("../assests/San_Francisco.otf");}
 @font-face {
 	font-family:MooLahLah-Regular;
-	src: url("MooLahLah-Regular.ttf")
+	src: url("../assests/MooLahLah-Regular.ttf")
 }
 ol.topNavOl {
 	list-style-type: none;

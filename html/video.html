@@ -5,7 +5,8 @@
 		<meta name="author" content="Jonathan Zhou">
 		<meta name="description" content="Video Page for CDA215">
 		<meta name="keywords" content="CDA215, Jonathan, Zhou,  video">
-		<link rel="stylesheet" href="mmpcss.css">
+		<script src="../scripts/multimedia.js"></script>
+		<link rel="stylesheet" href="../css/mmpcss.css">
 		<title> Video </title>
 	</head>	
 
@@ -29,10 +30,10 @@
 			<h1> Videos </h1>
 			<div class="centerDiv">
 				<br>
-				<a href="video.mp4" target="_blank" class="media">Never Gonna Give You Up by Rick Astley:</a>
+				<a href="../assests/video.mp4" target="_blank" class="media">Never Gonna Give You Up by Rick Astley:</a>
 				<br>
 				<video width="800" height="500" controls autoplay>
-					<source src="video.mp4" type="video/mp4">
+					<source src="../assests/video.mp4" type="video/mp4">
 					Your browser does not support the video element.
 				</video>
 				<br>
@@ -45,12 +46,7 @@
 				</iframe>
 				<br>
 				<br>
-				<button id="myButton" >Click to go back to multimedia page</button>
-				<script type="text/javascript">
-					document.getElementById("myButton").onclick = function () {
-						location.href = "MultimediaPages.html";
-					};
-				</script>
+				<button id="myButton" onclick="returnToPage();">Click to go back to multimedia page</button>
 			</div>
 			<br>
 			<br>
